@@ -4,6 +4,8 @@ from .views import LocationTempView
 
 urlpatterns = [
     path(
-        'locations/<str:city>/',
+        "locations/<str:city>/",
         LocationTempView.as_view(),
-        name="location-temp")]
+        name="location-temp",
+    )
+]

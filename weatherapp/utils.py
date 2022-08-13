@@ -14,7 +14,8 @@ def temp_calculation(forecast_days):
         "maximum": maximum,
         "minimum": minimum,
         "average": average,
-        "median": median_}
+        "median": median_,
+    }
 
 
 def get_temperature(city, days):
